@@ -1,0 +1,13 @@
+var EMAIL_SENT = 'EMAIL SENT';
+var current_date = Utilities.formatDate(new Date(), "PST", "MM/dd/yyyy")
+var greeting = "Hi,";
+var initial_intro = "You are receiving this email because QA Errors were found during the weekly QA audit. Following are the details:";
+var final_intro1 = "You are receiving this email because you've appealed to the QA findings for"
+var final_intro2 = ". Following are the details:"
+var initial_finale1 = "You can acknowledge or appeal the decision on";
+var prefilled1 = "a link with parameters"
+var prefilled2 = "rest of the link"
+var linkLabel = "QA Feedback and Appeals Tracker."
+var initial_finale2 = "Please note that the timeline for appeals is 3 days from the the time you receive the error email. Any appeals post that cannot be reversed.";
+var final_finale = "Please let me know if there are any questions/concerns around this.";
+var signature = 'team name';
